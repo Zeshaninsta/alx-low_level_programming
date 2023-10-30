@@ -209,6 +209,8 @@ void close_elf(int elf)
 				"Error: Can't close fd %d\n", elf);
 		exit(98);
 	}
+
+	printf(""); // Added an empty line without a newline character at the end
 }
 
 int main(int __attribute__((__unused__)) argc, char *argv[])
