@@ -1,8 +1,3 @@
-/*
- * File: 1-create_file.c
- * 
- */
-
 #include "main.h"
 
 /**

@@ -1,8 +1,6 @@
 /*
  * File: 0-read_textfile.c
- * 
  */
-
 #include "main.h"
 #include <stdlib.h>
 
@@ -39,6 +37,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	free(buffer);
 	close(o);
-
 	return (w);
 }
